@@ -4,7 +4,7 @@
 int
 main(int argc, char** argv)
 {
-  string name;                                      // Name of @user
-  std::cin >> name;                                 // Input name of @user
-  std::cout << "Hello world from " << name << endl; // Output name of @user
+  string name;                                      // Имя пользователя
+  std::cin >> name;                                 // Введите имя пользователя
+  std::cout << "Hello world from " << name << endl; // Вывод имени пользователя в консоль
 }
