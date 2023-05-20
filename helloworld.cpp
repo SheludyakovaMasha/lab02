@@ -1,9 +1,10 @@
 #include <iostream>
 #include <string>
- 
 
-int main(int argc, char** argv) {
-   string name; //User name
-   std::cin >> name; // Input user name
-   std::cout << "Hello world from " << name << std::endl;
+int
+main(int argc, char** argv)
+{
+  string name;                                      // Имя пользователя
+  std::cin >> name;                                 // Введите имя пользователя
+  std::cout << "Hello world from " << name << endl; // Вывод имени пользователя в консоль
 }
